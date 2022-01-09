@@ -30,6 +30,8 @@ The pool records all valid shares even if the pool didn't win the block. (Curren
 
 ## How To Join
 
+Don't use my version of prover on other pools; the modified prover won't work correctly on unmodified operators. 
+
 ### Short version
 
 Use the codebase at https://github.com/HarukaMa/snarkOS and join the pool at `69.10.36.174:4132`.
@@ -65,7 +67,7 @@ pkg-config
 ```
 The package names might be different on other distributions.
 
-## 2. Run an Aleo Mining Node
+### 2. Run an Aleo Mining Node
 
 Next, to generate an Aleo miner address, run:
 ```
