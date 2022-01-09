@@ -30,7 +30,69 @@ The pool records all valid shares even if the pool didn't win the block. (Curren
 
 ## How To Join
 
-This section is intentionally left blank as I'm still building the infrastructure needed to run the pool. Stay tuned.
+### Short version
+
+Use the codebase at https://github.com/HarukaMa/snarkOS and join the pool at `69.10.36.174:4132`.
+
+### Long version
+
+The below instructions are mostly copied from [the official guide](https://github.com/AleoHQ/snarkOS) with modifications for this pool. 
+
+### 1. Installation
+
+Before beginning, please ensure your machine has `Rust v1.56+` installed. Instructions to [install Rust can be found here.](https://www.rust-lang.org/tools/install)
+
+Start by cloning the snarkOS Github repository:
+```
+git clone https://github.com/HarukaMa/snarkOS
+```
+
+Next, move into the snarkOS directory:
+```
+cd snarkOS
+```
+
+**[For Ubuntu users]** A helper script to install dependencies is available. From the snarkOS directory, run:
+```
+./testnet2_ubuntu.sh
+```
+
+**[For other users]** Install the following packages:
+```
+clang
+libssl-dev
+pkg-config
+```
+The package names might be different on other distributions.
+
+## 2. Run an Aleo Mining Node
+
+Next, to generate an Aleo miner address, run:
+```
+cargo run --release -- experimental new_account
+```
+This will output a new Aleo account in the terminal.
+
+**Please remember to save the account private key and view key.** The following is an example output:
+```
+ Attention - Remember to store this account private key and view key.
+
+  Private Key  APrivateKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  <-- Save Me
+     View Key  AViewKey1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  <-- Save Me
+      Address  aleo1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  <-- Use Me For The Next Step
+```
+
+Next, to start a mining node, from the snarkOS directory, run:
+```
+./run-prover.sh
+```
+When prompted, enter your Aleo miner address:
+```
+Enter your Aleo miner address:
+aleo1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+```
+
+There will be no mining reports but you can track the state of the miner by reading the logs or checking for the shares on the pool info site.
 
 ## Contact
 
