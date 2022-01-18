@@ -30,6 +30,12 @@ The pool records all valid shares even if the pool didn't win the block. (Curren
 
 ## How To Join
 
+**Update:** Please try the new prover by following the instruction [here](new_prover.md). It should be faster than the current one. You don't need to follow the instructions below if you use this prover.
+
+Please stop the current prover if you are already using it and decided to use the new prover; don't run two provers simultaneously as it will be much slower.
+
+---
+
 Don't use my version of prover on other pools; the modified prover won't work correctly on unmodified operators. 
 
 ### Short version
