@@ -14,7 +14,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 Accept default options by pressing <kbd>Enter</kbd> or customize if you need to.
 
-Log out and log in again to finish the installation, or follow the instructions by rustup.
+**Log out and log in again to finish the installation**, or follow the instructions by rustup.
 
 ### 2. Install dependencies
 
