@@ -4,7 +4,7 @@
 
 This pool is for [Aleo Incentivized Testnet](https://www.aleo.org/post/incentivized-testnet-announcement) (testnet2).
 
-The pool address is `aleo1harukzrnc7jfplxtn6005rs4xeglkrvvv0uwy56yzm0kkx062s9q3tdk8q`.
+The pool address is `aleo1harukzrnc7jfplxtn6005rs4xeglkrvvv0uwy56yzm0kkx062s9q3tdk8q`. To see the pool's address on the official leaderboard, click [here](https://www.aleo.network/leaderboard/aleo1harukzrnc7jfplxtn6005rs4xeglkrvvv0uwy56yzm0kkx062s9q3tdk8q).
 
 Information site will be [here](https://ap.mrx.im). New announcements will be posted on that site so make sure to check it often.
 
@@ -35,7 +35,7 @@ The pool records all valid shares even if the pool didn't win the block. (Curren
 Please stop the current prover if you are already using it and decided to use the new prover; don't run two provers simultaneously as it will be much slower.
 
 ---
-
+<details><summary>Old prover</summary>
 Don't use my version of prover on other pools; the modified prover won't work correctly on unmodified operators. 
 
 ### Short version
@@ -102,8 +102,12 @@ aleo1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 There will be no mining reports but you can track the state of the miner by reading the logs or checking for the shares on the pool info site.
 
+</details>
+
 ## Contact
 
 Discord: はるか#8264 or ping me in the Aleo server
+
+Discord server: [Invite](https://discord.gg/yx2UcAM8TT)
 
 Telegram: @harukaff_bot

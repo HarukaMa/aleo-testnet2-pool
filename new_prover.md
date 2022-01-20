@@ -61,5 +61,5 @@ or
 target/release/aleo-prover -a <aleo1your_address_here> -p 69.10.36.174:4132
 ```
 
-Read the [readme](https://github.com/HarukaMa/aleo-prover/blob/master/README.md) for more details about the prover and optimization instructions.
+Read the [readme](https://github.com/HarukaMa/aleo-prover/blob/master/README.md) for more details about the prover, optimizations and GPU supports.
 
