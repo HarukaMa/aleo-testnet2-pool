@@ -2,6 +2,16 @@
 
 Thanks for your interest in trying out the experimental prover.
 
+## Pre-compiled Windows version
+
+You can found it [here](https://github.com/HarukaMa/aleo-prover/releases). Extract all files then run
+
+```
+aleo-prover.exe -a <aleo1your_address_here> -p 69.10.36.174:4132
+```
+
+Unfortunately for CUDA support you still need to compile the prover yourself.
+
 ## Building the prover
 
 ### 1. Install Rust
