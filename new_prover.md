@@ -16,7 +16,7 @@ Unfortunately for CUDA support you still need to compile the prover yourself.
 
 ### 1. Install Rust
 
-**DO NOT* install Rust using things like `apt install rust`.
+**DO NOT** install Rust using things like `apt install rust`.
 
 Install the latest version of Rust using rustup. Run the following line:
 
