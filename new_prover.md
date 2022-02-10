@@ -16,7 +16,9 @@ Unfortunately for CUDA support you still need to compile the prover yourself.
 
 ### 1. Install Rust
 
-It's recommended to install the latest version of Rust by using rustup. Run the following line:
+**DO NOT* install Rust using things like `apt install rust`.
+
+Install the latest version of Rust using rustup. Run the following line:
 
 ```sh
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -45,6 +47,8 @@ sudo apt install git clang libssl-dev pkg-config --no-install-recommends
 ```
 
 ### 3. Clone and build the prover
+
+Unless absolutely necessary, **DO NOT** run anything with `sudo`. You don't need root permission from now on.
 
 Clone the prover repo:
 
